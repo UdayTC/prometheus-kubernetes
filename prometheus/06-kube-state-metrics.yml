@@ -10,7 +10,7 @@ metadata:
 spec:
   ports:
   - name: metrics
-    port: 8080
+    port: 30000
     targetPort: metrics
     protocol: TCP
   selector:
